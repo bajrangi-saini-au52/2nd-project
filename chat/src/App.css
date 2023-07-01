@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+@media (max-aspect-ratio:2/3){
+
+   .joinPage{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start !important;
+   }
+
+
+    .joinContainor{
+        margin-top: 30vw !important;
+        width: 100% !important;
+         
+    }
+
+    .joinContainor > img{
+        width: 30vw !important;
+    
+    }
+    .joinContainor > h1{
+         
+        font-size: 6vw !important;
+        width: 55vw !important;
+        border-bottom: 0.6vw solid white !important;
+        padding: 3vw !important;
+        
+    }
+    #joinInput{
+        width: 55vw !important;
+        padding: 4vw !important;
+        font-size: 5vw !important;
+        margin: 5vw !important;
+         
+    }
+    .joinBtn{
+        width: 55vw !important;
+        padding: 4vw !important;
+         font-size:5vw !important ;
+         
+    }
+    
+}
